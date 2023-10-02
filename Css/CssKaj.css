@@ -1,0 +1,375 @@
+
+#Sit_Body
+  {
+    //  position: absolute;
+     // width: 100%;
+    //  height: 100%;
+    //  margin: 0px;
+     // padding: 0px;
+     // top:0px;left:0px;right:0px;bottom:0px;
+      background-image: url('../Images/BasePage/Back.jpg');
+      background-repeat: no-repeat;
+      background-size:cover;
+  }
+#MainPanel
+{
+	position:absolute;
+	top:0px;left:0px;right:0px;bottom:0px;
+       
+	
+	
+}
+ 
+
+#BackgroundImage
+{
+	position:absolute;
+	top:0px;left:0px;right:0px;bottom:0px;
+	height:100%;
+	width:100%;
+}
+#MiddleMiddleLogo
+{
+	position:absolute;
+	top:25%;
+        left:40.5%;
+        width: 250px;
+        height: 350px;
+}
+
+#TopLeftMacBook
+{
+	position:absolute;
+	top:0px;left:0px;
+}
+#TopLeftGlass
+{
+	position:absolute;
+	top:112px;left:42px;
+}
+#DownLeftNote
+{
+	position:absolute;
+	bottom:0px;left:0px;
+}
+#MiddleLeftPine
+{
+	position:absolute;
+	left:10px;
+	bottom:10px;
+}
+#MiddleLeftClips
+{
+	position:absolute;
+	left:105px;
+	bottom:110px;
+}
+#MiddleLeftPapierMache
+{
+	position:absolute;
+	left:130px;
+	bottom:200px;
+        width: 160px;
+        height: 160px;
+}
+
+#DownMiddlePencile2
+{
+	position:absolute;
+	left:200px;
+	bottom:0px;
+      
+    
+}
+#DownMiddlePencile
+{
+	position:absolute;
+	left:220px;
+	bottom:0px;
+      
+}
+#DownMiddleEraser
+{
+	position:absolute;
+	left:320px;
+	bottom:30px;
+        width: 110px;
+        height: 80px;
+ 
+          
+}
+
+
+#DownRightHandsFree
+{
+	position:absolute;
+	right:0px;
+	bottom:0px;
+       
+}
+#DownMiddleCup
+{
+	position:absolute;
+	right:220px;
+	bottom:30px;
+         width: 170px;
+        height: 170px;
+}
+#rightMiddleCamera
+{
+	position:absolute;
+	right:90px;
+	bottom:230px;
+}
+#RightUpPlants
+{
+	position:absolute;
+	right:0px;
+	top:0px;
+}
+
+#MenuTopMiddle a
+{
+	text-decoration:none;
+	font-family:  Arial,sans-serif,Helvetica,BMitra;
+	font-size:9pt;
+        border: hidden;
+}
+
+#MiddleDownData
+{
+	position:absolute;
+	bottom:1%;
+	left:0px;
+	right:0px;
+	color:#FFFFFF;
+	font-family: BMitra,"Myriad Pro", Arial, Helvetica, sans-serif;
+	font-size:8pt;
+        border: hidden;
+        
+        
+}
+#MiddleDownData a
+{
+	color:#FFFFFF;
+	text-decoration:none;
+	font-family: BMitra,"Myriad Pro",Arial, Helvetica, sans-serif;
+	font-size:10pt;
+        border: hidden;
+}
+#MiddleDownData a:hover
+{
+	color:#DEDEDE;
+	text-decoration:none;
+	font-family: BMitra,"Myriad Pro", Arial, Helvetica, sans-serif;
+	font-size:10pt;
+        border:  hidden;
+}
+
+.D_Contact
+{
+	display:inline;
+        border-color:  #66c901;
+        
+}
+.D_Contact img
+{
+	width:32px;
+	height:32px;
+        border: hidden;
+       
+}
+
+#MenuTopMiddle
+{
+position:absolute;
+	top:8%;
+	right:65%;
+	height:30px;
+	color:#FFFFFF;
+        border: hidden;
+        
+        
+}
+#FullTop
+{
+        position:absolute;
+	width:800px;
+	height:32px;
+	//border:1px #000000 solid;
+}
+#MenuBar
+{
+	position:absolute;
+	left:105px;top:0px;bottom:0px;right:120px;
+        height:60px;
+	vertical-align:middle;
+	padding:0px;
+	margin:0px;
+        border-radius: 5px;
+        z-index: 1;
+
+        
+}
+
+#Menu_back
+{
+       position:absolute;
+	left:142px;top:0px;bottom:0px;right:155px;
+        height:32px;
+	
+	vertical-align:middle;
+	padding:0px;
+	margin:0px;
+        border-radius: 5px; 
+        background:   #464646 ;
+       opacity: 0.6;
+}
+
+
+#SearchBox
+{
+	position:absolute;
+	left:90px;bottom:0px;
+         
+	width:32px;
+        
+	height:32px;
+	border:2px #FFFFFF solid;
+	border-radius:15px;
+	vertical-align: top;
+        //top:20%;
+        text-align: center;
+        z-index: 1;
+        
+        
+       
+}
+
+
+#SearchBtn
+{
+	position:absolute;
+	background:url("../Images/BasePage/Search.png") no-repeat;
+	top:7px;right:6px;
+	background-position:  0px 0px;
+	background-repeat: no-repeat;
+	width:15px;
+	height:15px;
+	background-color: non;
+	
+	outline: 0;
+	border: none;
+        text-align: center;
+        cursor: pointer;
+        z-index: 1;
+}
+#SearchInput
+{
+	background: none;
+	color: #FFFFFF;
+	border: 0px;
+	height:100%;
+	width:100%;
+	font-family: BMitra,"Myriad Pro", Arial, Helvetica, sans-serif;
+	font-size:13pt;
+	vertical-align:middle;
+	padding:0px;
+	margin:0px;
+        text-align:  center;
+        //text-decoration-color:  ;
+        cursor: inherit;
+       z-index: 1;
+      
+        
+}
+#SearchInput:focus
+{
+    outline: 0;
+    border:hidden;
+    cursor:  inherit;
+    
+}
+
+
+
+#ProfileBar
+{
+	position:absolute;
+	left:710px;top:0px;bottom:0px;right:0px;
+	
+	vertical-align:middle;
+	padding:0px;
+	margin:0px;
+        
+}
+#TopMenuPlaceHolder
+{
+	position:absolute;
+	top:0px;left:0px;bottom:0px;right:0px;
+	padding-top:2px;
+	vertical-align:middle;
+	
+	margin-top:5px;
+}
+
+h1
+{
+	height:32px;
+	padding:0px;
+	margin:0px;
+}
+.ParentMenu
+{
+	height:100%;
+	width:82px;
+	display:inline-block;
+	background-color:none;
+	text-align:center;
+	padding:0px;
+	margin:0px;
+	top:-10px;
+	vertical-align:middle;
+}
+.ParentMenuSelected
+{
+	height:100%;
+	width:82px;
+	display:inline-block;
+	text-align:center;
+	/*background-color:#66c901;*/
+	color:#66c901;
+	padding:0px;
+	margin:0px;
+	top:-2px;
+	cursor:pointer;
+	vertical-align:middle;
+}
+
+span .tab{
+    padding: 0 20px; 
+}
+.CircleDiv
+{
+	border-radius:100%;
+	height:16px;
+	width:16px;
+	background-color:#FFFFFF;
+	display:inline-block;
+}
+.ClassHidden
+{
+	display:none;
+}
+#footer 
+{
+   
+   font-family: Arial, Helvetica, sans-serif;
+    line-height: 20px;
+}
+
+sup {
+vertical-align: super;
+font-size: smaller;
+}
+/*-----------------------------------------Menu1-----------------------------------------------*/

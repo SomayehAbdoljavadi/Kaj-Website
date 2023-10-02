@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>Kaj advertisement Co.</title>
+		<link rel="shortcut icon" href="Images/BasePage/16-16.png" type="image/x-icon">
+		<link rel="stylesheet" type="text/css" href="Css/fontstyle.css">
+		<link rel="stylesheet" type="text/css" href="Css/CssKaj.css">
+		<script src="JQ/jquery-1.11.0.min.js"></script>
+		<script src="JQ/kaj.js"></script>
+		<script>
+			function change_Image(Tag_Id,img)
+			{
+				document.getElementById(Tag_Id).src=img;
+			}
+		</script>
+	</head>
+	<body>
+		<div id="MainPanel">
+			<img id="BackgroundImage" src="Images/BasePage/Back.jpg" alt="Kaj advertisement Co. Background." />
+			<img id="TopLeftMacBook" src="Images/BasePage/lp.png" alt="Kaj advertisement Co. Apple MacBook" />
+			<img id="TopLeftGlass" src="Images/BasePage/glasses.png" alt="Kaj advertisement Co. Glass" />
+			<img id="DownLeftNote" src="Images/BasePage/note.png" alt="Kaj advertisement Co. Note" />
+			<img id="MiddleLeftPine" src="Images/BasePage/cons.png" alt="Kaj advertisement Co. Pine " />
+			<img id="MiddleLeftClips" src="Images/BasePage/clips.png" alt="Kaj advertisement Co. Clips" />
+			<img id="MiddleLeftPapierMache" src="Images/BasePage/Paper.png" alt="Kaj advertisement Co. Papier Mache" />
+			<img id="DownMiddlePencile" src="Images/BasePage/pencile.png" alt="Kaj advertisement Co. Pencile" />
+			<img id="DownMiddleEraser" src="Images/BasePage/eraser.png" alt="Kaj advertisement Co. Eraser" />
+			<img id="DownMiddleSharpener" src="Images/BasePage/Sharpener.png" alt="Kaj advertisement Co. Sharpener" />
+			<img id="DownMiddleTrasheh" src="Images/BasePage/Tarasheh.png" alt="Kaj advertisement Co. Sharpener" />
+			<img id="DownRightHandsFree" src="Images/BasePage/handsfree.png" alt="Kaj advertisement Co. Hands Free" />
+			<img id="DownMiddleCup" src="Images/BasePage/Cup.png" alt="Kaj advertisement Co. Cup" />
+			<img id="rightMiddleCamera" src="Images/BasePage/Camera.png" alt="Kaj advertisement Co. Camera" />
+			<img id="RightUpPlants" src="Images/BasePage/Plants.png" alt="Kaj advertisement Co. Plants"/>
+			<img id="MiddleMiddleLogo" src="Images/BasePage/logo.png" alt="Kaj advertisement Logo Full screen"/>
+			<div id="FullBackCover">
+				<div id="MenuTopMiddle">
+					<!--<center>-->
+						<div id="FullTop">
+							<div id="SearchBox"><input type="text" id="SearchInput" value=""/><input type="submit" id="SearchBtn" value="" /></div>
+							<div id="MenuBar" style="direction:rtl;" >
+								<span id="TopMenuPlaceHolder">
+									<div class="ParentMenu">
+										<a class="Selected" href="http://kaj-adv.com/"><h1>کاج</h1></a>
+									</div>
+									<div class="ParentMenu">
+										<a href="#"><h1><span style="vertical-align:middle;height:100%;">فعالیت های کاج</span></h1></a>
+									</div>
+									<div class="ParentMenu">
+										<a href="#"><h1>مشتریان کاج</h1></a>
+									</div>
+									<div class="ParentMenu">
+										<a href="#"><h1>اخبار کاج</h1></a>
+									</div>
+									<div class="ParentMenu">
+										<a href="#"><h1>فروشگاه کاج</h1></a>
+									</div>
+									<div class="ParentMenu">
+										<a href="#"><h1>درباره کاج</h1></a>
+									</div>
+									<div class="ParentMenu">
+										<a href="#"><h1>ارتباط با کاج</h1></a>
+									</div>
+								</span>
+							</div>
+							<div id="ProfileBar">
+							</div>
+						</div>
+					<!--</center>-->
+				</div>
+				<div id="MiddleDownData">
+					<center>
+						<div class="D_Contact_Info">
+							<div Id="D_FB" class="D_Contact">
+								 <a href="#">
+								      <img Id="Img_Icon_Fb" class="Img_Icon_Contact"
+								           alt="Img_Icon_Fb"
+								           src="Images/Contacts_Icon/Icon_FB_G.png"
+								           onmouseover="change_Image(this.id,'Images/Contacts_Icon/Icon_FB.png');"
+								           onmouseout="change_Image(this.id,'Images/Contacts_Icon/Icon_FB_G.png');"
+								           
+								       />
+					     
+								 </a>
+							   </div> 
+							     <div Id="D_TW" class="D_Contact">
+								<a href="#">
+								      <img Id="Img_Icon_TW" class="Img_Icon_Contact"
+								           alt="Img_Icon_TW"
+								           src="Images/Contacts_Icon/Icon_TW_G.png"
+								           onmouseover="change_Image(this.id,'Images/Contacts_Icon/Icon_TW.png');"
+								           onmouseout="change_Image(this.id,'Images/Contacts_Icon/Icon_TW_G.png');"
+								           
+								       />
+					     
+								 </a>
+							    </div> 
+							    <div Id="D_G" class="D_Contact">
+								<a href="#">
+								      <img Id="Img_Icon_G" class="Img_Icon_Contact"
+								           alt="Img_Icon_G"
+								           src="Images/Contacts_Icon/Icon_G+_G.png"
+								           onmouseover="change_Image(this.id,'Images/Contacts_Icon/Icon_G+.png');"
+								           onmouseout="change_Image(this.id,'Images/Contacts_Icon/Icon_G+_G.png');"
+								           
+								       />
+					     
+								 </a>
+								
+							    </div> 
+							    <div Id="D_FB" class="D_Contact">
+								 <a href="#">
+								      <img Id="Icon_Insta_Fb" class="Img_Icon_Contact"
+								           alt="Icon_Insta_Fb"
+								           src="Images/Contacts_Icon/Icon_Insta_G.png"
+								           onmouseover="change_Image(this.id,'Images/Contacts_Icon/Icon_Insta.png');"
+								           onmouseout="change_Image(this.id,'Images/Contacts_Icon/Icon_Insta_G.png');"
+								           
+								       />
+					     
+								 </a>
+							   </div> 
+							    <div Id="D_In" class="D_Contact">
+								<a href="#">
+								      <img Id="Img_Icon_In" class="Img_Icon_Contact"
+								           alt="Img_Icon_In"
+								           src="Images/Contacts_Icon/Icon_IN_G.png"
+								           onmouseover="change_Image(this.id,'Images/Contacts_Icon/Icon_IN.png');"
+								           onmouseout="change_Image(this.id,'Images/Contacts_Icon/Icon_IN_G.png');"
+								           
+								       />
+					     
+								 </a>
+								
+							    </div>
+							    <div Id="D_Rss" class="D_Contact">
+								<a href="#">
+								      <img Id="Img_Icon_Rss" class="Img_Icon_Contact"
+								           alt="Img_Icon_Rss"
+								           src="Images/Contacts_Icon/Icon_RSS_G.png"
+								           onmouseover="change_Image(this.id,'Images/Contacts_Icon/Icon_RSS.png');"
+								           onmouseout="change_Image(this.id,'Images/Contacts_Icon/Icon_RSS_G.png');"
+								           
+								       />
+					     
+								 </a>
+							    </div>
+						</div>
+						<br/>
+							<div style="direction:rtl;">
+							<a href="http://www.kaj-ad.com/">© تمامی حقوق برای صاحب سایت محفوظ است.</a><br/>
+							تمامي كالاها و خدمات اين فروشگاه، حسب مورد داراي مجوزهاي لازم از مراجع مربوطه مي‌باشند و فعاليت‌هاي اين سايت تابع قوانين و مقررات جمهوري اسلامي ايران است
+							</div>
+					</center>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

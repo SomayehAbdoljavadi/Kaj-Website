@@ -1,0 +1,219 @@
+//@import url(http://fonts.googleapis.com/css?family=Open+Sans:600);
+.Nav-item:nth-child(1).is-active ~ .Nav-item:last-child:after {
+  left: 0%;
+}
+
+.Nav-item:nth-child(1):hover ~ .Nav-item:last-child:after {
+  left: 0% !important;
+}
+
+.Nav-item:nth-child(1).is-active ~ .Nav-item:last-child:before {
+  left: 10%;
+}
+
+.Nav-item:nth-child(1):hover ~ .Nav-item:last-child:before {
+  left: 10% !important;
+}
+/*--------------------------------------------------------------------------*/
+.Nav-item:nth-child(2).is-active ~ .Nav-item:last-child:after {
+  left: 20%;
+}
+
+.Nav-item:nth-child(2):hover ~ .Nav-item:last-child:after {
+  left: 20% !important;
+}
+
+.Nav-item:nth-child(2).is-active ~ .Nav-item:last-child:before {
+  left: 30%;
+}
+
+.Nav-item:nth-child(2):hover ~ .Nav-item:last-child:before {
+  left: 30% !important;
+}
+/*--------------------------------------------------------------------------*/
+.Nav-item:nth-child(3).is-active ~ .Nav-item:last-child:after {
+  left: 40%;
+}
+
+.Nav-item:nth-child(3):hover ~ .Nav-item:last-child:after {
+  left: 40% !important;
+}
+
+.Nav-item:nth-child(3).is-active ~ .Nav-item:last-child:before {
+  left: 50%;
+}
+
+.Nav-item:nth-child(3):hover ~ .Nav-item:last-child:before {
+  left: 50% !important;
+}
+/*--------------------------------------------------------------------------*/
+.Nav-item:nth-child(4).is-active ~ .Nav-item:last-child:after {
+  left: 60%;
+}
+
+.Nav-item:nth-child(4):hover ~ .Nav-item:last-child:after {
+  left: 60% !important;
+}
+
+.Nav-item:nth-child(4).is-active ~ .Nav-item:last-child:before {
+  left: 70%;
+}
+
+.Nav-item:nth-child(4):hover ~ .Nav-item:last-child:before {
+  left: 70% !important;
+}
+/*--------------------------------------------------------------------------*/
+.Nav-item:nth-child(5).is-active ~ .Nav-item:last-child:after {
+  left: 80%;
+  
+}
+
+.Nav-item:nth-child(5):hover ~ .Nav-item:last-child:after {
+  left: 80% !important;
+  
+}
+
+.Nav-item:nth-child(5).is-active ~ .Nav-item:last-child:before {
+  left: 90%;
+  
+}
+
+.Nav-item:nth-child(5):hover ~ .Nav-item:last-child:before {
+  left: 90% !important;
+  
+}
+
+.NavMain-list 
+{
+  margin: 0px;
+  padding: 0px;
+  width: 500px;
+  list-style: none;
+  position: relative;
+  z-index: 1;
+ // border:  #DB0000 solid 1px;
+}
+
+.Nav-item 
+{
+  display: block;
+  float: left;
+  margin: 0;
+  padding: 0;
+  width: 20%;
+  text-align: center;
+  overflow: hidden;
+  z-index: 1;
+  //height: 30px;
+  //background-color:  #008AEA;
+}
+.Nav-item:first-child 
+{
+  border-radius: 3px 0 0 3px;
+}
+.Nav-item a 
+{
+  -webkit-background-clip: text;
+  box-sizing: content-box;
+  display: block;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-right: 400%;
+  margin-right: -400%;
+  position: relative;
+  background-position: -179px 0px;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+.is-active .Nav-item a, .Nav-item a:hover 
+{
+  background-position: 0px 0px;
+  color: #39b54a;
+}
+.Nav-item.is-active a 
+{
+  background-position: 0px 0px;
+  color:#39b54a;
+}
+
+
+*, *:before, *:after 
+{
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.7s ease;
+  -moz-transition: all 0.7s ease;
+  -o-transition: all 0.7s ease;
+  -ms-transition: all 0.7s ease;
+  transition: all 0.7s ease;
+
+}
+
+.NavMain-list:before,
+.NavMain-list:after 
+{
+  content: " ";
+  /* 1 */
+  display: block;
+  /* 2 */
+}
+
+.NavMain-list:after 
+{
+  clear: both;
+}
+
+.Nav-item:last-child 
+{
+  border-radius: 0 3px 3px 0;
+}
+.Nav-item:last-child:before
+{
+  content: '';
+  display: block;
+  width: 0;
+  height: 0;
+  border: 6px solid transparent;
+  border-top-color:   #39b54a;
+  position: absolute;
+  top: 0;
+  left: 90%;
+  margin-left: -3px;
+  z-index: 1;
+ }
+.Nav-item:last-child:after 
+{
+  content: '';
+  display: block;
+  position: absolute;
+  width: 20%;
+  border: solid 4px #39b54a;
+  border-left: hidden;
+  border-right: hidden;
+  border-radius: 10%;
+  top: -4px;
+  bottom: 8px;
+  left: 80%;
+  z-index: -1;
+}
+.Nav-item:last-child:hover:before 
+{
+  left: 90% !important;
+}
+.Nav-item:last-child:hover:after 
+{
+  left: 80% !important;
+}
+a 
+{
+text-decoration: none;
+color: #FFFFFF;
+}
+a h1
+{
+    font-size: medium; 
+}
+
+
